@@ -12,11 +12,13 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:shadowColor="#000"
-        android:shadowDx="5"
-        android:shadowDy="5"
-        android:shadowRadius="15"
+        android:background="#FFFFFF"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:shadowColor="#FF4200"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="55"
         android:text="Jess's Hot Sauce"
         android:textAlignment="center"
         android:textColor="#FF4200"
@@ -34,17 +36,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FF4200"
         android:paddingTop="10dp"
         android:text="Small batch artisan hot sauce."
-        android:textColor="#FF4200"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="25sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:text="Custom orders available."
+        android:textAlignment="center"
         android:textColor="#FF4200"
         android:textSize="25sp" />
 
@@ -55,26 +61,32 @@
         app:srcCompat="@drawable/pepper" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FF4200"
         android:paddingTop="10dp"
         android:text="Hours: By Appointment"
-        android:textColor="#FF4200"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FF4200"
         android:text="Email: jessdoeswork@gmail.com"
-        android:textColor="#FF4200"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FF4200"
+        android:paddingBottom="10dp"
         android:text="Phone: (504)867-5309"
-
-        android:textColor="#FF4200"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
 
